@@ -1,0 +1,95 @@
+/*                   */
+.right-block{
+    width: 300px;
+    height: 436px;
+    background-color: #c4c4c4;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 20px 0;
+    
+}
+/*               */
+.money-wrap{
+    height: 55px;
+    width: 160px;
+    background-color: #899898;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color:#fff;
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+
+/*                       */
+
+.right-item{
+    width: 250px;
+    margin: 20px auto;
+}
+.right-item-name{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.right-item-btn-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.energy-btn{
+    background-color: #000000;
+}
+.sleep-btn{
+    background-color: #4A694B;
+
+}
+.eat-btn{
+    background-color: #B23D3D;
+}
+.right-btn{
+    width: 70px;
+    margin: 0 5px;
+    height: 30px;
+    color:#fff;
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 300ms;
+}
+.right-btn:hover{
+    transform: scale(1.1);
+    border:1px solid #fff;
+    cursor: pointer;
+}
+
+
+/*           */
+
+
+.first-item-progress-number{
+    text-align: center;
+    color:white;
+}
+.second-item-progress-number{
+    text-align: center;
+    color:white;
+}
+.third-item-progress-number{
+    text-align: center;
+    color:white;
+}
+/*      WORK         */
+.eat-8{
+    background-image: url(./images/soup.png);
+    background-size: 40%;
+
+}
+.eat-1{
+    background-image: url(./images/apple.png);
+    background-size: 40%;
+}
+.eat-3{
+    background-image: url(./images/burger.png);
+}
